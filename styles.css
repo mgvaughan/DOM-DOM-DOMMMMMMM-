@@ -1,0 +1,28 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.boxdiv {
+    height: 100px;
+    width: 100px;
+    /* border: 1px black solid; */
+    /* background-color: blue; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.iddiv {
+    font-size: 75px;
+    margin: 0 auto;
+    color: white;   
+    visibility: hidden;
+}
+
+.boxdiv:hover .iddiv {
+    visibility: visible;
+}
